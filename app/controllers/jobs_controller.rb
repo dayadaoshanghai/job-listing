@@ -10,7 +10,7 @@ class JobsController < ApplicationController
           else
             Job.published.recent
           end
-end
+  end
 
   def show
     @job = Job.find(params[:id])
