@@ -34,6 +34,7 @@ gem 'simple_form'
 gem 'devise'
 gem 'font-awesome-rails'
 gem 'carrierwave'
+gem 'pg'
 
 group :development, :test do
   #gem 'sqlite3', '~>1.3.6'
